@@ -1,0 +1,49 @@
+body{
+  font-family: Helvetica;
+  text-align: center;
+
+}
+
+p{
+  font-size: 14px
+}
+
+.bgimg{
+  background-image:image(Users/BCC/Desktop/Broadway/resources/the-flatiron-building.png);
+}
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.nav{
+  text-align:center;
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+h2{
+  font-size: 32;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.small
+h3{
+  color: white;
+}
+
+.smaller{
+  font-size: 11px;
+  color: dimgray;
+  text-align: left;
+}
