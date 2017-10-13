@@ -8,9 +8,13 @@ p{
   font-size: 14px
 }
 
+div
 .bgimg{
-  background-image:image(Users/BCC/Desktop/Broadway/resources/the-flatiron-building.png);
+background-image: url(Users/BCC/Desktop/Broadway/resources/the-flatiron-building.png);
+  background-image: no-repeat center;
 }
+
+
 
 h1{
   text-align: center;
@@ -30,20 +34,43 @@ h1{
 h2{
   font-size: 32;
   font-weight: bold;
+  text-align: center;
 }
 
-h3{
-  font-size: 23px;
-  font-weight: bold;
-}
+
 
 .small
 h3{
   color: white;
+  text-align: center;
 }
 
 .smaller{
   font-size: 11px;
   color: dimgray;
   text-align: left;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
